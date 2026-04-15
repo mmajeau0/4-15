@@ -1,4 +1,6 @@
 //#9876
+
+// https://github.com/mmajeau0/4-15.git
 #include "FeetInches.h"
 
 
@@ -7,13 +9,21 @@ int main()
 {
 	FeetInches num1{0, 0};
 	FeetInches num2{0,0}; 
-
+	int feet{}; 
+	int inch{}; 
 
 	cout << "Enter first distance (feet inches) :"; 
-	cin >> num1; 
+	cin >> feet; 
+	cin >> inch; 
+	num1.setFeet(feet);
+	num1.setInches(inch);
+
 
 	cout << "Enter second distance (feet inches) :";
-	cin >> num2;
+	cin >> feet;
+	cin >> inch;
+	num2.setFeet(feet);
+	num2.setInches(inch);
 
 
 

@@ -129,15 +129,25 @@ bool FeetInches::operator ==(FeetInches &num)
 	return false;
 }
 
-friend ostream &operator <<(ostream & stream, const FeetInches & feetInches)
+ostream &operator <<(ostream & stream, const FeetInches & feetInches)
 {
     stream << feetInches.feet << " feet " << feetInches.inches << " inches";
 	return stream; 
 }
 
-friend ostream &operator >>(ostream& stream, const FeetInches& feetInches)
-{ 
-	stream >> feetInches.feet; 
-	stream >> feetInches.inches; 
-	return stream; 
+// ifstream &operator >>(ifstream& stream, const FeetInches& feetInches)
+// {
+// 	ifstream >> feetInches.feet; 
+// 	stream >> feetInches.inches; 
+// 	return stream; 
+// }
+
+void FeetInches::setInches(int inches)
+{
+	this->inches = inches;
+}
+
+void FeetInches::setFeet(int feet)
+{
+	this->feet = feet; 
 }
