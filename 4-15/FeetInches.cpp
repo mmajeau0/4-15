@@ -1,5 +1,8 @@
 #include "FeetInches.h"
 
+FeetInches:: ~FeetInches() {} 
+
+
 FeetInches::FeetInches(int feet, int inches)
 {
 	if (inches > 12)

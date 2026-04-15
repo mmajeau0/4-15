@@ -87,3 +87,78 @@ int main()
 	return 0; 
 }
 
+
+
+//=======output=======
+//Enter first distance(feet inches) :2
+//1
+//Enter second distance(feet inches) : 21 1
+//==== = FeetInches Menu ======
+//1. Add distances(+)
+//2. Subtract distances(-)
+//3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	1
+//	Sum: 21 feet 2 inches
+//	==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	2
+//	Difference: 21 feet - 19 inches
+//	==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	3
+//	First < Second :TrueFirst > Second :FalseFirst == Second : False==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	4
+//	After Prefix++2 feet 2 inches
+//	==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	5
+//	After Postfix++21 feet 2 inches
+//	==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	6
+//	First : 2 feet 1 inches
+//	Second : 21 feet 1 inches==== = FeetInches Menu ======
+//	1. Add distances(+)
+//	2. Subtract distances(-)
+//	3. Compare distances(> , < , == )
+//	4. increment first distance(++first)
+//	5. increment second distance(second++)
+//	6. display disances
+//	0. exit
+//	0
+//	Not an option try again: 0
